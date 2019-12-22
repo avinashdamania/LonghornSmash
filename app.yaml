@@ -3,9 +3,9 @@ api_version: 1
 threadsafe: true
 
 handlers:
-- url: /(.*\.(html|css|js|jpg|png))
+- url: /(.*\.(html|css|js|jpg|png|ico))
   static_files: build/\1
-  upload: build/(.*\.(html|css|js|jpg|png))
+  upload: build/(.*\.(html|css|js|jpg|png|ico))
 
 - url: /.*
   static_files: build/index.html
