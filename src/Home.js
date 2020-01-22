@@ -6,12 +6,12 @@ import { Col, Row } from 'react-bootstrap';
 
 const hstyle = {
     textAlign: "center",
-    fontFamily: "Aclonica",
-    fontSize: "65px"
+    fontFamily: "SmashUltimate",
+    fontSize: "100px"
 };
 const h2style = {
     textAlign: "center",
-    fontFamily: "Aclonica",
+    fontFamily: "GothamBlackRegular",
     fontSize: "25px",
     marginTop: "20px"
 };
@@ -22,7 +22,7 @@ export const Home = () => (
     <div style={{
         backgroundColor: '#e9f5f8', width: '100%',
         height: '100%'}}>
-        <h2 style={hstyle}>Longhorn Smash</h2>
+        <h2 style={hstyle}>LONGHORN SMASH</h2>
         <div style={{
         display: 'flex',
         alignItems: 'center',

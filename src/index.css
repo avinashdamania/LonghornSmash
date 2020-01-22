@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'SmashUltimate';
+  src: local('SmashUltimate'), url(./fonts/super_smash_4_1_by_pokemon_diamond-d7zxu6d.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'GothamBlackRegular';
+  src: local('GothamBlackRegular'), url(./fonts/GothamBlackRegular.ttf) format('truetype');
+}

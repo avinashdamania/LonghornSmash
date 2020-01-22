@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './fonts/super_smash_4_1_by_pokemon_diamond-d7zxu6d.ttf';
+import './fonts/GothamBlackRegular.ttf';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
