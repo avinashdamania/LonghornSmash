@@ -7,20 +7,22 @@ import { Col, Row } from 'react-bootstrap';
 const hstyle = {
     textAlign: "center",
     fontFamily: "SmashUltimate",
-    fontSize: "100px"
+    fontSize: "100px",
+    color: '#cd6c3c'
 };
 const h2style = {
     textAlign: "center",
     fontFamily: "GothamBlackRegular",
     fontSize: "25px",
-    marginTop: "20px"
+    marginTop: "20px",
+    color: '#cd6c3c'
 };
 var intViewportWidth = window.innerWidth;
 var intViewportHeight = window.innerHeight;
 
 export const Home = () => (
     <div style={{
-        backgroundColor: '#e9f5f8', width: '100%',
+        backgroundColor: '#000000', width: '100%',
         height: '100%'}}>
         <h2 style={hstyle}>LONGHORN SMASH</h2>
         <div style={{
