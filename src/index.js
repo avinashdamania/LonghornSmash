@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './fonts/super_smash_4_1_by_pokemon_diamond-d7zxu6d.ttf';

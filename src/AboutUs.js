@@ -46,7 +46,7 @@ export const AboutUs = () => (
         <p style={pstyle}>Longhorn Smash is an organization fostered by a unified passion for the Super Smash Bros series. Its members build friendship through playing video games together, organizing social events, and of course, competing in weekly tournaments hosted by the organization’s administration team.</p> 
 
         <p style={pstyle}>From the start of the 2019-2020 semester it became a branch of Longhorn Gaming, UT’s biggest esports club. This allowed Longhorn Smash to send their esports team to collegiate tournaments, given the opportunity to compete across the country.</p>
-        <p style={pstyle}>The primary way our group communicates is through discord, you can join below.</p>
+        <p style={pstyle}>The primary way our group communicates is through Discord; you can join below!</p>
         <div style={{
         display: 'flex',
         alignItems: 'center',
