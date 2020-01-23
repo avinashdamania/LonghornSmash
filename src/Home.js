@@ -8,7 +8,7 @@ import ReactPlayer from 'react-player'
 import Image from 'react-bootstrap/Image'
 import { Col, Row } from 'react-bootstrap';
 import YouTube from 'react-youtube';
-import ImageGallery from 'react-image-gallery';=
+import ImageGallery from 'react-image-gallery';
 
 const hstyle = {
     textAlign: "center",

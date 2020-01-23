@@ -1,8 +1,8 @@
 import React from 'react'
-import tp1 from './assets/tp1.JPG'
-import tp2 from './assets/tp2.JPG'
-import tp3 from './assets/tp3.JPG'
-import tp4 from './assets/tp4.JPG'
+import tp1 from './assets/tp1.jpg'
+import tp2 from './assets/tp2.jpg'
+import tp3 from './assets/tp3.jpg'
+import tp4 from './assets/tp4.jpg'
 import { Col, Row } from 'react-bootstrap';
 import YouTube from 'react-youtube';
 import { withTheme } from 'styled-components'
