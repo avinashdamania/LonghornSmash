@@ -7,7 +7,8 @@ import tp4 from './assets/tp4.jpg'
 import ReactPlayer from 'react-player'
 import Image from 'react-bootstrap/Image'
 import { Col, Row } from 'react-bootstrap';
-import ImageGallery from 'react-image-gallery';
+import YouTube from 'react-youtube';
+import ImageGallery from 'react-image-gallery';=
 
 const hstyle = {
     textAlign: "center",
@@ -42,15 +43,18 @@ export const Home = () => (
     <div style={{
         backgroundColor: '#000000', width: '100%',
         height: '100%'}}>
+
         <h2 style={hstyle}>LONGHORN SMASH</h2>
+
         <div style={{
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         marginTop: '20px'
         }}>
-        <Image src={logo} fluid width='50%' />
+            <Image src={logo} fluid width='50%' />
         </div>
+
         <h2 style={h2style}> Find out about the history of our org</h2>
         <ImageGallery items={ipation} />
         <div style={{
@@ -69,6 +73,6 @@ export const Home = () => (
         marginTop: '10px',
         }}>
     
-        </div>  
+        </div> 
     </div>
 )
