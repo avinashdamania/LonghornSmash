@@ -3,31 +3,46 @@ import tp1 from './assets/tp1.JPG'
 import tp2 from './assets/tp2.JPG'
 import tp3 from './assets/tp3.JPG'
 import tp4 from './assets/tp4.JPG'
+import { Col, Row } from 'react-bootstrap';
+import YouTube from 'react-youtube';
+import { withTheme } from 'styled-components'
 
 
 
 const hstyle = {
     textAlign: "center",
-    fontFamily: "Aclonica",
-    fontSize: "65px"
+    fontFamily: "SmashUltimate",
+    fontSize: "65px",
+    color: 'white'
 };
+
+const h2style = {
+    textAlign: "center",
+    fontFamily: "GothamBlackRegular",
+    fontSize: "25px",
+    marginTop: "20px",
+    color: 'white'
+};
+
 const pstyle = {
     textAlign: "center",
-    fontFamily: "Aclonica",
-    fontSize: "25px"
+    fontFamily: "GothamBlackRegular",
+    fontSize: "25px",
+    color: 'white'
 };
 const pstyle2 = {
     textAlign: "center",
-    fontFamily: "Aclonica",
+    fontFamily: "GothamBlackRegular",
     fontSize: "25px",
-    marginTop:"20px"
+    marginTop:"20px",
+    color: 'white'
 };
 
 export const AboutUs = () => (
     <div style={{
-        backgroundColor: '#e9f5f8', width: '100%',
+        backgroundColor: '#000', width: '100%',
         height: '100%'}}>
-        <h2 style={hstyle}>About Us</h2>
+        <h2 style={hstyle}>ABOUT US</h2>
         <p style={pstyle}>Longhorn Smash is an organization fostered by a unified passion for the Super Smash Bros series. Its members build friendship through playing video games together, organizing social events, and of course, competing in weekly tournaments hosted by the organization’s administration team.</p> 
 
         <p style={pstyle}>From the start of the 2019-2020 semester it became a branch of Longhorn Gaming, UT’s biggest esports club. This allowed Longhorn Smash to send their esports team to collegiate tournaments, given the opportunity to compete across the country.</p>
@@ -39,24 +54,37 @@ export const AboutUs = () => (
         fontSize:'24px'
         }}><td textAlign= 'center'> <a textAlign='center' href={"https://discord.gg/UrNNR92"}> Join our discord!</a> </td></div>
 
-        <p style={pstyle}>Below are some pictures from our previous tournaments</p>
+        <h2 style={h2style}> Find out about the history of our org</h2>
+
         <div style={{
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        marginTop: '20px'
+        marginTop: '10px'
         }}>
-            <img textAlign="center" width={.7*window.innerWidth} src={tp1} alt="first pic"></img>
-            <img textAlign="center" width={.7*window.innerWidth} src={tp2} alt="second pic"></img>
-        </div>
+            <YouTube videoId={'WGsMY2Xzjow'}/>
+            {/* <ReactPlayer height={.5*intViewportHeight} width={.7*intViewportWidth} url='https://youtu.be/WGsMY2Xzjow' History /> */}
+        </div>  
+        <h2 style={h2style}> Watch a highlight video! </h2>
+        <Row> 
+            <Col> 
+                <h2 style={h2style}> Spring 2019 </h2>
+            </Col> 
+        </Row>
         <div style={{
         display: 'flex',
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        marginTop: '10px',
         }}>
-            <img textAlign="center" width={.7*window.innerWidth} src={tp3} alt="third pic"></img>
-            <img textAlign="center" width={.7*window.innerWidth} src={tp4} alt="fourth pic"></img>
-        </div>
+            <Row>
+                <Col>
+                    <YouTube videoId={'WC3WtXONu34'} />
+                    <h2 style={h2style}> Fall 2018 </h2>
+                    <YouTube videoId={'O_2Et1UFjaM'} />
+                </Col>  
+            </Row>      
+        </div> 
         <p style={pstyle2}>Find us on HornsLink</p>
         <div style={{
         display: 'flex',
