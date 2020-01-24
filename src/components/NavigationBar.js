@@ -4,14 +4,16 @@ import styled from 'styled-components';
 
 const Styles = styled.div`
     .navbar{
-        background-color: #222;
-
+        background-color: #000;
+        font-family: "HKGrotesk", Arial, sans-serif;
+        font-size: 120%;
     }
     .navbar-brand, .navbar-nav .nav-link {
-        color: #bbb;
+        color: white;
 
         &:hover{
-            color: white;
+            color: #cd6c3c;
+            transition: color 0.1s
         }
     }
 `; 

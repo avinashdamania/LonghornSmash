@@ -54,8 +54,7 @@ export const Home = () => (
         }}>
             <Image src={logo} fluid width='50%' />
         </div>
-
-        <h2 style={h2style}> Find out about the history of our org</h2>
+        <br></br>
         <ImageGallery items={ipation} />
         <div style={{
         display: 'flex',
@@ -64,15 +63,6 @@ export const Home = () => (
         marginTop: '10px'
         }}>
         
-        </div>  
-        <Row> <Col> <h2 style={h2style}> Spring 2019 </h2> </Col> </Row>
-        <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        marginTop: '10px',
-        }}>
-    
         </div> 
     </div>
 )

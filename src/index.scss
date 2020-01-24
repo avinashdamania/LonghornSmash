@@ -2,7 +2,7 @@ $ig-small-screen: 768px !default;
 $ig-xsmall-screen: 480px !default;
 $ig-white: #fff !default;
 $ig-black: #000 !default;
-$ig-blue: #cd6c3c !default;
+$ig-blue: #bbb !default;
 $ig-background-black: rgba(0, 0, 0, .4) !default;
 $ig-transparent: rgba(0, 0, 0, 0) !default;
 
@@ -347,7 +347,7 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
 
 .image-gallery-thumbnail {
   display: inline-block;
-  border: 4px solid transparent;
+  border: 2px solid transparent;
   transition: border .3s ease-out;
   width: 100px;
   background: transparent;
@@ -376,10 +376,10 @@ $ig-transparent: rgba(0, 0, 0, 0) !default;
   &:hover,
   &:focus {
     outline: none;
-    border: 4px solid $ig-blue;
+    border: 2px solid $ig-blue;
 
     @media (max-width: $ig-small-screen) {
-      border: 3px solid $ig-blue;
+      border: 2px solid $ig-blue;
     }
   }
 
@@ -435,6 +435,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'HKGrotesk';
+  src: local('HKGrotesk'), url(./fonts/HKGrotesk-Regular.ttf) format('truetype');
 }
 
 @font-face {
