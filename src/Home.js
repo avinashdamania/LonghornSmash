@@ -43,8 +43,25 @@ export default class Home extends React.Component {
             </Row>
           </Container>
         </div>
-        <section id="second" style={{marginTop: "20em"}}>
-          <ImageGallery items={images} />
+        <section id="second">
+            <Container className="h-100">
+              <Row className="h-25">
+                <Col>
+                  <h2 class="tournament-headings">Tournament Info</h2>
+                </Col>
+                <Col className="mx-auto">
+                  <h2 class="tournament-headings">See what our tournaments look like!</h2>
+                </Col>
+              </Row>
+              <Row className="h-75">
+                <Col className="my-auto">
+                  <h2 class="tournament-headings text-center">Ayo dicks lmao</h2>
+                </Col>
+                <Col className="my-auto text-center">
+                  <ImageGallery items={images} />
+                </Col>
+              </Row>
+            </Container>
         </section>
       </div>
       

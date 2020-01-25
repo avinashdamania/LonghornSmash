@@ -20,3 +20,14 @@
     font-size: 50px;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
+
+.tournament-headings {
+    font-family: "HKGrotesk", Arial, sans-serif;
+    color: #fff;
+    font-size: 40px;
+}
+
+#second {
+    height: 100vh;
+    margin-top: 10em;
+}
