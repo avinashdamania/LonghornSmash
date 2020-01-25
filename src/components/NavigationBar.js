@@ -7,16 +7,18 @@ const Styles = styled.div`
         background-color: #000;
         font-family: "HKGrotesk", Arial, sans-serif;
         font-size: 120%;
+        padding: 1.5em
     }
     .navbar-brand, .navbar-nav .nav-link {
         color: white;
 
         &:hover{
             color: #cd6c3c;
-            transition: color 0.1s
+            transition: color 0.2s
         }
     }
-`; 
+`;
+
 export const NavigationBar = () => (
     <Styles>
         <Navbar expand="lg">

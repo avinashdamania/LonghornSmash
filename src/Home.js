@@ -3,28 +3,24 @@ import logo from './assets/LS_Logo.png'
 import tp1 from './assets/tp1.jpg'
 import tp2 from './assets/tp2.jpg'
 import tp3 from './assets/tp3.jpg'
-import tp4 from './assets/tp4.jpg'
-import ReactPlayer from 'react-player'
 import Image from 'react-bootstrap/Image'
-import { Col, Row } from 'react-bootstrap';
-import YouTube from 'react-youtube';
 import ImageGallery from 'react-image-gallery';
 
 const hstyle = {
     textAlign: "center",
     fontFamily: "SmashUltimate",
     fontSize: "100px",
-    color: '#cd6c3c'
+    color: '#cd6c3c',
 };
-const h2style = {
-    textAlign: "center",
-    fontFamily: "GothamBlackRegular",
-    fontSize: "25px",
-    marginTop: "20px",
-    color: '#cd6c3c'
-};
-var intViewportWidth = window.innerWidth;
-var intViewportHeight = window.innerHeight;
+// const h2style = {
+//     textAlign: "center",
+//     fontFamily: "GothamBlackRegular",
+//     fontSize: "25px",
+//     marginTop: "20px",
+//     color: '#cd6c3c'
+// };
+// var intViewportWidth = window.innerWidth;
+// var intViewportHeight = window.innerHeight;
 
 
 const ipation = [
@@ -38,6 +34,8 @@ const ipation = [
       original: tp3
     },
   ];
+
+
 
 export const Home = () => (
     <div style={{
@@ -55,6 +53,10 @@ export const Home = () => (
             <Image src={logo} fluid width='50%' />
         </div>
         <br></br>
+
+        <p>
+          Welcome to UT Austin's official Smash Ultimate club!
+        </p>
         <ImageGallery items={ipation} />
         <div style={{
         display: 'flex',
