@@ -1,0 +1,22 @@
+.Home {
+    background: url('./assets/ultimateposter6.jpg');
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+
+
+.hstyle {
+    text-align: center;
+    font-family: "SmashUltimate";
+    font-size: 100px;
+    color: #cd6c3c; 
+}
+
+.h2style {
+    font-family: "HKGrotesk", Arial, sans-serif;
+    color: #fff;
+    font-size: 50px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}

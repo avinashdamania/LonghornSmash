@@ -5,25 +5,11 @@ import tp2 from './assets/tp2.jpg'
 import tp3 from './assets/tp3.jpg'
 import Image from 'react-bootstrap/Image'
 import ImageGallery from 'react-image-gallery';
-
-const hstyle = {
-    textAlign: "center",
-    fontFamily: "SmashUltimate",
-    fontSize: "100px",
-    color: '#cd6c3c',
-};
-// const h2style = {
-//     textAlign: "center",
-//     fontFamily: "GothamBlackRegular",
-//     fontSize: "25px",
-//     marginTop: "20px",
-//     color: '#cd6c3c'
-// };
-// var intViewportWidth = window.innerWidth;
-// var intViewportHeight = window.innerHeight;
+import { Container, Row, Col, Button } from 'react-bootstrap';
+import './Home.css';
 
 
-const ipation = [
+const images = [
     {
       original: tp1
     },
@@ -33,38 +19,63 @@ const ipation = [
     {
       original: tp3
     },
-  ];
+];
 
+export default class Home extends React.Component {
+  render() {
+    return (
 
-
-export const Home = () => (
-    <div style={{
-        backgroundColor: '#000000', width: '100%',
-        height: '100%'}}>
-
-        <h2 style={hstyle}>LONGHORN SMASH</h2>
-
-        <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        marginTop: '20px'
-        }}>
-            <Image src={logo} fluid width='50%' />
+      <div>
+        <div class="Home" style={{height: "100vh"}}>
+          <Container className="h-100">
+            <Row className="h-100">
+              <Col style={{marginTop: "16em"}}>
+                <div className="mx-auto">
+                  {/* <h1 class="hstyle"> LONGHORN SMASH</h1> */}
+                  <h2 class="h2style">Welcome to the website for UT Austin's official Competitve Super Smash Bros. Ultimate club!</h2>
+                  <Button size="lg" style={{backgroundColor: "#010", border: "none"}} href="#second">See Upcoming Tournaments!</Button>
+                </div>
+                </Col>
+              <Col style={{marginTop: "16em"}}>
+                <div className="mx-auto text-center">
+                  <img className='img-fluid' src={logo} alt={'logo'} style={{width: '60%'}}/>
+                </div>
+              </Col>
+            </Row>
+          </Container>
         </div>
-        <br></br>
+        <section id="second" style={{marginTop: "20em"}}>
+          <ImageGallery items={images} />
+        </section>
+      </div>
+      
+    //   <div style={{
+    //     backgroundColor: '#000000', width: '100%',
+    //     height: '100%'}}>
 
-        <p>
-          Welcome to UT Austin's official Smash Ultimate club!
-        </p>
-        <ImageGallery items={ipation} />
-        <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        marginTop: '10px'
-        }}>
+    //     <h2 class="hstyle"> LONGHORN SMASH</h2>
+
+    //     <div style={{
+    //     display: 'flex',
+    //     alignItems: 'center',
+    //     justifyContent: 'center',
+    //     marginTop: '20px'
+    //     }}>
+    //         <Image src={logo} fluid width='50%' />
+    //     </div>
+    //     <br></br>
+
+    //     <p>
+    //       Welcome to UT Austin's official Smash Ultimate club!
+        // </p>
+    //     display: 'flex',
+    //     alignItems: 'center',
+    //     justifyContent: 'center',
+    //     marginTop: '10px'
+    //     }}>
         
-        </div> 
-    </div>
-)
+    //     </div> 
+    // </div>
+    );
+  }
+}
