@@ -25,6 +25,11 @@ code {
 }
 
 @font-face {
+  font-family: 'HKGroteskBold';
+  src: local('HKGroteskBold'), url(./fonts//HKGrotesk-Bold.ttf) format('truetype');
+}
+
+@font-face {
   font-family: 'SmashUltimate';
   src: local('SmashUltimate'), url(./fonts/super_smash_4_1_by_pokemon_diamond-d7zxu6d.ttf) format('truetype');
 }
