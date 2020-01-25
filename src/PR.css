@@ -1,0 +1,35 @@
+.hstyle {
+    text-align: center;
+    font-family: 'HKGroteskBold';
+    font-size: 65px;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: #cd6c3c;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+}
+
+a:link {
+    color: #bbb;
+}
+
+/* visited link */
+a:visited {
+    color: #cd6c3c;
+}
+
+/* mouse over link */
+a:hover {
+    color: #fff;
+}
+
+/* selected link */
+a:active {
+    color: #cd6c3c;
+}

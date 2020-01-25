@@ -3,7 +3,6 @@ import logo from './assets/LS_Logo.png'
 import tp1 from './assets/tp1.jpg'
 import tp2 from './assets/tp2.jpg'
 import tp3 from './assets/tp3.jpg'
-import Image from 'react-bootstrap/Image'
 import ImageGallery from 'react-image-gallery';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import './Home.css';
