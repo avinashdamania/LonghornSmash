@@ -31,7 +31,7 @@ export default class Home extends React.Component {
               <Col style={{marginTop: "16em"}}>
                 <div className="mx-auto">
                   {/* <h1 class="hstyle"> LONGHORN SMASH</h1> */}
-                  <h2 class="h2style">Welcome to the website for UT Austin's official Competitve Super Smash Bros. Ultimate club!</h2>
+                  <h2 class="h2style">Welcome to the website for UT Austin's official Competitive Super Smash Bros. Ultimate club!</h2>
                   <Button size="lg" style={{backgroundColor: "#010", border: "none"}} href="#second">See Upcoming Tournaments!</Button>
                 </div>
                 </Col>
