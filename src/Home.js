@@ -6,19 +6,13 @@ import tp3 from './assets/tp3.jpg'
 import ImageGallery from 'react-image-gallery';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import './Home.css';
+import TournamentInfo from './components/TournamentInfo'
+import YouTube from 'react-youtube';
 
-
-const images = [
-    {
-      original: tp1
-    },
-    {
-      original: tp2
-    },
-    {
-      original: tp3
-    },
-];
+const youtube_video_opts = {
+  height: '720',
+  width: '1280'
+};
 
 export default class Home extends React.Component {
   render() {
@@ -44,54 +38,48 @@ export default class Home extends React.Component {
           </Container>
         </div>
         <section id="second">
-            <Container className="h-100">
-              <Row className="h-25">
+            <Container fluid="lg">
+              <Row>
                 <Col>
-                  <h2 class="tournament-headings">Tournament Info</h2>
-                </Col>
-                <Col className="mx-auto">
-                  <h2 class="tournament-headings">See what our tournaments look like!</h2>
+                  <h2 class="tournament-headings text-center">Tournament Info</h2>
                 </Col>
               </Row>
-              <Row className="h-75">
-                <Col className="my-auto">
-                  <h2 class="tournament-headings text-center">Ayo dicks lmao</h2>
-                </Col>
-                <Col className="my-auto text-center">
-                  <ImageGallery items={images} />
+              <Row className="h-50">
+                <Col>
+                  <TournamentInfo/>
                 </Col>
               </Row>
             </Container>
         </section>
+        <section id="third">
+          <Container fluid="lg">
+            <Row>
+              <Col>
+                <h2 class="video-heading text-center">See our highlights!</h2>
+              </Col>
+            </Row>
+            <Row style={{marginTop: "2em"}}>
+                <Col className="text-center">
+                  <YouTube videoId={'WC3WtXONu34'} opts={youtube_video_opts}/>
+                </Col>  
+            </Row>    
+          </Container>
+        </section>
+        <section id="fourth">
+          <Container fluid="lg">
+            <Row>
+              <Col>
+                <h2 class="a-team-heading text-center">CSL A Team!</h2>
+              </Col>
+            </Row>
+            <Row style={{marginTop: "2em"}}>
+                <Col className="text-center">
+                  <YouTube videoId={'R930gktTpcM'} opts={youtube_video_opts}/>
+                </Col>  
+            </Row>    
+          </Container>
+        </section>
       </div>
-      
-    //   <div style={{
-    //     backgroundColor: '#000000', width: '100%',
-    //     height: '100%'}}>
-
-    //     <h2 class="hstyle"> LONGHORN SMASH</h2>
-
-    //     <div style={{
-    //     display: 'flex',
-    //     alignItems: 'center',
-    //     justifyContent: 'center',
-    //     marginTop: '20px'
-    //     }}>
-    //         <Image src={logo} fluid width='50%' />
-    //     </div>
-    //     <br></br>
-
-    //     <p>
-    //       Welcome to UT Austin's official Smash Ultimate club!
-        // </p>
-    //     display: 'flex',
-    //     alignItems: 'center',
-    //     justifyContent: 'center',
-    //     marginTop: '10px'
-    //     }}>
-        
-    //     </div> 
-    // </div>
     );
   }
 }
