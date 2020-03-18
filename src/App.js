@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import Home from './Home';
-import {AboutUs} from './AboutUs';
-import PR from './PR';
-import {NoMatch} from './NoMatch';
+import Home from './pages/Home';
+import {AboutUs} from './pages/AboutUs';
+import PR from './pages/PR';
+import {NoMatch} from './pages/NoMatch';
 import {NavigationBar} from './components/NavigationBar';
 
 class App extends Component {

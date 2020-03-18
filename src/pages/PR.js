@@ -1,18 +1,18 @@
 import React from 'react'
 import { Carousel, Container, Row, Col, Image } from 'react-bootstrap';
-import prbanner from './assets/pr/prbanner.jpg';
-import minus from './assets/pr/1_Minus.png'
-import favorit from './assets/pr/2_favorit.png'
-import waltz from './assets/pr/3_Waltz.png'
-import studz from './assets/pr/4_StudZ.png'
-import kaiser from './assets/pr/5_Kaiser.png'
-import junk from './assets/pr/6_Junk.png'
-import lasagna from './assets/pr/7_lasagna.png'
-import lsoe from './assets/pr/8_LSOE.png'
-import r from './assets/pr/9_R.png'
-import ruski from './assets/pr/10_RuskiNurd.png'
+import prbanner from '../assets/pr/prbanner.jpg';
+import minus from '../assets/pr/1_Minus.png'
+import favorit from '../assets/pr/2_favorit.png'
+import waltz from '../assets/pr/3_Waltz.png'
+import studz from '../assets/pr/4_StudZ.png'
+import kaiser from '../assets/pr/5_Kaiser.png'
+import junk from '../assets/pr/6_Junk.png'
+import lasagna from '../assets/pr/7_lasagna.png'
+import lsoe from '../assets/pr/8_LSOE.png'
+import r from '../assets/pr/9_R.png'
+import ruski from '../assets/pr/10_RuskiNurd.png'
 import ImageGallery from 'react-image-gallery';
-import './PR.css';
+import '../css/PR.css';
 
 // const hstyle = {
 //     textAlign: "center",
