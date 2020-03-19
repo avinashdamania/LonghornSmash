@@ -5,6 +5,7 @@ import tp3 from './assets/tp3.jpg'
 import tp4 from './assets/tp4.jpg'
 import { Col, Row, Container, Image, Card, Button } from 'react-bootstrap';
 import YouTube from 'react-youtube';
+import ImageGallery from 'react-image-gallery';
 import { withTheme } from 'styled-components'
 import josephstuder from './assets/officers/joseph.jpg'
 import ankurkaushik from './assets/officers/ankur.jpg'
@@ -13,7 +14,29 @@ import joji from './assets/officers/joji.jpg'
 import alana from './assets/officers/alana.jpg'
 import fawad from './assets/officers/fawad.jpg'
 
+import minus from './assets/community/img1.jpg'
+import favorit from './assets/community/img2.jpg'
+import waltz from './assets/community/img3.jpg'
+import studz from './assets/community/img4.jpg'
+import kaiser from './assets/community/img5.jpg'
 
+const pr_images = [
+    {
+      original: waltz
+    },
+    {
+      original: favorit
+    },
+    {
+      original: minus
+    },
+    {
+        original: studz
+    },
+    {
+        original: kaiser
+    }
+];
 
 
 
@@ -58,6 +81,14 @@ const pstyle3 = {
     color: 'white'
 };
 
+const pstyle4 = {
+    textAlign: "right",
+    fontFamily: "GothamBlackRegular",
+    fontSize: "25px",
+    color: 'white'
+};
+
+
 export const AboutUs = () => (
     <div style={{
         backgroundColor: '#000', width: '100%',
@@ -67,8 +98,9 @@ export const AboutUs = () => (
 
         <p style={pstyle}>Longhorn Smash is an organization fostered by a unified passion for the Super Smash Bros series. Its members build friendship through playing video games together, organizing social events, and competing in weekly tournaments hosted by the organization’s administration team.</p> 
 
-        
+        <br></br>
         <h2 style={hstyle2}>History</h2>
+        <br></br>
         <Container fluid style = {{margin: "10px"}}>
         <Row>
             <YouTube videoId={'WGsMY2Xzjow'}/>
@@ -85,12 +117,16 @@ export const AboutUs = () => (
         </Row>
         </Container>
 
+        <br></br>
         <h2 style={hstyle2}>Community</h2>
+        <br></br>
         <Container fluid style = {{margin: "10px"}}>
         <Row>
-            <YouTube videoId={'WGsMY2Xzjow'}/>
+        
+            
+
         <Col>
-        <p style={pstyle3}>
+        <p style={pstyle4}>
         This past school year, Longhorn Smash introduced guilds to our community. Our top 3 players each lead one guild, and these guilds are fighting to obtain the most through various means.
         However, the guild system is more than just friendly competition for our members; the guilds offer new members a way to make new friends in the community and feel welcome to the scene.
         Each guild hosts practice sessions and other hangouts ranging from just getting dinner to escape rooms to PCL study sessions. Our community has long been a place to form new friendships and maintain old ones,
@@ -98,14 +134,19 @@ export const AboutUs = () => (
         </p>
         </Col>
 
+        <Col>
+        <ImageGallery items={pr_images} style={{width: "20%", height: "20%"}}/>
+        </Col>
+
         </Row>
         </Container>
 
-
+        <br></br>
         <h2 style={hstyle2}>Competition</h2>
+        <br></br>
         <Container fluid style = {{margin: "10px"}}>
         <Row>
-        <YouTube videoId={'WC3WtXONu34'} />
+        <YouTube videoId={'R930gktTpcM'} />
         <Col>
         <p style={pstyle3}>
             Longhorn Smash became a branch of Longhorn Gaming this past school year, joining us with the other competitive collegiate esports teams on the UT campus. Our competitive scene
