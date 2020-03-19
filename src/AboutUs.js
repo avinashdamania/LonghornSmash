@@ -135,7 +135,7 @@ export const AboutUs = () => (
         </Col>
 
         <Col>
-        <ImageGallery items={pr_images} style={{width: "20%", height: "20%"}}/>
+        <ImageGallery items={pr_images} autoPlay="true" style={{width: "20%", height: "20%"}}/>
         </Col>
 
         </Row>
