@@ -23,11 +23,36 @@
 
 .tournament-headings {
     font-family: "HKGrotesk", Arial, sans-serif;
-    color: #fff;
+    color: #000;
     font-size: 40px;
+    margin-top: 0.9em;
+}
+
+.video-heading {
+    font-family: "HKGrotesk", Arial, sans-serif;
+    color: #000;
+    font-size: 40px;
+    margin-top: 0.9em;
+}
+
+.a-team-heading {
+    font-family: "HKGrotesk", Arial, sans-serif;
+    color: #000;
+    font-size: 40px;
+    margin-top: 0.9em;
 }
 
 #second {
     height: 100vh;
-    margin-top: 10em;
+    background-color: gainsboro;
+}
+
+#third {
+    height: 100vh;
+    background-color: goldenrod;
+}
+
+#fourth {
+    height: 100vh;
+    background-color: lightblue;
 }
