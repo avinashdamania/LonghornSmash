@@ -41,10 +41,10 @@ export default class Home extends React.Component {
             <Container fluid="lg">
               <Row>
                 <Col>
-                  <h2 class="tournament-headings text-center">Tournament Info</h2>
+                  <h2 class="tournament-headings text-center">Next Tournament</h2>
                 </Col>
               </Row>
-              <Row className="h-50">
+              <Row style={{paddingTop: "1em"}}>
                 <Col>
                   <TournamentInfo/>
                 </Col>
@@ -79,6 +79,7 @@ export default class Home extends React.Component {
             </Row>    
           </Container>
         </section>
+
       </div>
     );
   }
