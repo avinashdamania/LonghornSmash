@@ -1,12 +1,9 @@
 import React from 'react'
-import logo from './assets/LS_Logo.png'
-import tp1 from './assets/tp1.jpg'
-import tp2 from './assets/tp2.jpg'
-import tp3 from './assets/tp3.jpg'
+import logo from '../assets/LS_Logo.png'
 import ImageGallery from 'react-image-gallery';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import './Home.css';
-import TournamentInfo from './components/TournamentInfo'
+import '../css/Home.css';
+import TournamentInfo from '../components/TournamentInfo'
 import YouTube from 'react-youtube';
 
 const youtube_video_opts = {
@@ -41,10 +38,10 @@ export default class Home extends React.Component {
             <Container fluid="lg">
               <Row>
                 <Col>
-                  <h2 class="tournament-headings text-center">Tournament Info</h2>
+                  <h2 class="tournament-headings text-center">Next Tournament</h2>
                 </Col>
               </Row>
-              <Row className="h-50">
+              <Row style={{paddingTop: "1em"}}>
                 <Col>
                   <TournamentInfo/>
                 </Col>
@@ -79,6 +76,7 @@ export default class Home extends React.Component {
             </Row>    
           </Container>
         </section>
+
       </div>
     );
   }
