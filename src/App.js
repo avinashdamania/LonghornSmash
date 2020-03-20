@@ -5,6 +5,7 @@ import {AboutUs} from './pages/AboutUs';
 import PR from './pages/PR';
 import {NoMatch} from './pages/NoMatch';
 import {NavigationBar} from './components/NavigationBar';
+import {Officers} from './Officers'
 
 class App extends Component {
   render(){
@@ -15,6 +16,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home}/>
             <Route path="/aboutus" component={AboutUs}/>
+            <Route path="/officers" component={Officers}/>
             <Route path="/pr" component={PR}/>
             <Route component={NoMatch}/>
           </Switch>
