@@ -5,7 +5,7 @@ import {AboutUs} from './pages/AboutUs';
 import PR from './pages/PR';
 import {NoMatch} from './pages/NoMatch';
 import {NavigationBar} from './components/NavigationBar';
-import {Officers} from './Officers'
+import {Officers} from './pages/Officers'
 
 class App extends Component {
   render(){
