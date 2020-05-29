@@ -18,7 +18,7 @@ export default class Home extends React.Component {
       <div>
         <div class="Home" style={{height: "100vh"}}>
           <Container className="h-100">
-            <Row className="h-100">
+            <Row>
               <Col style={{marginTop: "16em"}}>
                 <div className="mx-auto">
                   {/* <h1 class="hstyle"> LONGHORN SMASH</h1> */}
@@ -35,7 +35,7 @@ export default class Home extends React.Component {
           </Container>
         </div>
         <section id="second">
-            <Container fluid="lg">
+            <Container fluid>
               <Row>
                 <Col>
                   <h2 class="tournament-headings text-center">Next Tournament</h2>
@@ -49,7 +49,7 @@ export default class Home extends React.Component {
             </Container>
         </section>
         <section id="third">
-          <Container fluid="lg">
+          <Container fluid>
             <Row>
               <Col>
                 <h2 class="video-heading text-center">See our highlights!</h2>
@@ -63,7 +63,7 @@ export default class Home extends React.Component {
           </Container>
         </section>
         <section id="fourth">
-          <Container fluid="lg">
+          <Container fluid>
             <Row>
               <Col>
                 <h2 class="a-team-heading text-center">CSL A Team!</h2>
