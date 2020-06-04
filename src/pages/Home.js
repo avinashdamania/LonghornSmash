@@ -11,19 +11,17 @@ export default class Home extends React.Component {
 
       <div>
         <div class="Home">
-          <Container fluid>
-            <Row>
+          <Container>
+            <Row className="pt-5">
               <Col>
-                <div>
-                  <h2 class="h2style">Welcome to the website for UT Austin's official Competitive Super Smash Bros. Ultimate club!</h2>
-                  <Button size="lg" style={{backgroundColor: "#010", border: "none"}} href="#second">See Upcoming Tournaments!</Button>
-                </div>
-                </Col>
-              <Col>
+                <h2 class="h2style">Welcome to the website for UT Austin's official Competitive Super Smash Bros. Ultimate club!</h2>
+                <Button size="lg" style={{backgroundColor: "#010", border: "none"}} href="#second">See Upcoming Tournaments!</Button>
+              </Col>
+              {/* <Col>
                 <div className="text-center">
                   <img className='img-fluid' src={logo} alt={'logo'} style={{width: '60%'}}/>
                 </div>
-              </Col>
+              </Col> */}
             </Row>
           </Container>
         </div>

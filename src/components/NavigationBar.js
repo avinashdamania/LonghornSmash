@@ -1,6 +1,7 @@
 import React from 'react';
 import {Nav, Navbar} from 'react-bootstrap';
 import styled from 'styled-components';
+import logo from '../assets/LS_Logo.png'
 
 const Styles = styled.div`
     .navbar{
@@ -24,7 +25,16 @@ export default class NavigationBar extends React.Component {
         return (
             <Styles>
                 <Navbar expand="lg" sticky="top" variant="dark">
-                    <Navbar.Brand href="/">Longhorn Smash</Navbar.Brand>
+                    <Navbar.Brand href="/">
+                        <img 
+                            alt=""
+                            src={logo}
+                            width="40"
+                            height="30"
+                            className="d-inline-block align-top">
+                        </img>{' '}
+                        Longhorn Smash
+                    </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ml-auto">
