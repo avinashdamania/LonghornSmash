@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import {AboutUs} from './pages/AboutUs';
 import PR from './pages/PR';
 import {NoMatch} from './pages/NoMatch';
-import {NavigationBar} from './components/NavigationBar';
+import NavigationBar from './components/NavigationBar';
 import {Officers} from './pages/Officers'
 
 class App extends Component {

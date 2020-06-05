@@ -1,9 +1,10 @@
 .Home {
-    background: url('../assets/ultimateposter6.jpg');
+    background-color: teal;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
+    height: 100vh;
 }
 
 
@@ -17,7 +18,7 @@
 .h2style {
     font-family: "HKGrotesk", Arial, sans-serif;
     color: #fff;
-    font-size: 50px;
+    font-size: 6vw;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
