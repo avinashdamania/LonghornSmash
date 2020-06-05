@@ -18,46 +18,14 @@ import '../css/Officers.css'
 
 
 
-const hstyle = {
-    textAlign: "center",
-    fontFamily: "SmashUltimate",
-    fontSize: "65px",
-    color: 'white'
-};
-
-const hstyle2 = {
-    textAlign: "center",
-    fontSize: "65px",
-    color: 'white'
-};
-
 const h2style = {
     textAlign: "center",
     fontFamily: "GothamBlackRegular",
-    fontSize: "25px",
+    fontSize: "4vw",
     marginTop: "20px",
     color: 'white'
 };
 
-const pstyle = {
-    textAlign: "center",
-    fontFamily: "GothamBlackRegular",
-    fontSize: "25px",
-    color: 'white'
-};
-const pstyle2 = {
-    textAlign: "center",
-    fontFamily: "GothamBlackRegular",
-    fontSize: "25px",
-    marginTop:"20px",
-    color: 'white'
-};
-
-const pstyle3 = {
-    fontFamily: "GothamBlackRegular",
-    fontSize: "25px",
-    color: 'white'
-};
 
 export const Officers = () => (
     <div style={{
@@ -75,27 +43,27 @@ export const Officers = () => (
         }}>
 
 
-            <Card style={{ width: '18rem', margin: '50px' }}>
+            <Card style={{ width: '20vw', margin: '5vw', height: '30vw' }}>
             <Card.Img variant="top" src={ankurkaushik} />
             <Card.Body>
-                <Card.Title>Ankur Kaushik</Card.Title>
-                <Card.Text style={{color: 'black'}}>President</Card.Text>
+                <Card.Title style={{fontSize: "2vw"}}>Ankur Kaushik</Card.Title>
+                <Card.Text style={{color: 'black', fontSize: "2vw"}}>President</Card.Text>
             </Card.Body>
             </Card>
 
-            <Card style={{ width: '18rem', margin: '50px' }}>
+            <Card style={{ width: '20vw', margin: '5vw', height: '30vw' }}>
             <Card.Img variant="top" src={josephstuder} />
             <Card.Body>
-                <Card.Title>Joseph Studer</Card.Title>
-                <Card.Text style={{color: 'black'}}>Vice President</Card.Text>
+                <Card.Title style={{fontSize: "2vw"}}>Joseph Studer</Card.Title>
+                <Card.Text style={{color: 'black', fontSize: "2vw"}}>Vice President</Card.Text>
             </Card.Body>
             </Card>
 
-            <Card style={{ width: '18rem', margin: '50px' }}>
+            <Card style={{ width: '20vw', margin: '5vw', height: '30vw' }}>
             <Card.Img variant="top" src={avinash} />
             <Card.Body>
-                <Card.Title>Avinash Damania</Card.Title>
-                <Card.Text style={{color: 'black'}}>just a dude</Card.Text>
+                <Card.Title style={{fontSize: "2vw"}}>Avinash Damania</Card.Title>
+                <Card.Text style={{color: 'black', fontSize: "2vw"}}>just a dude</Card.Text>
             </Card.Body>
             </Card>
 
@@ -112,27 +80,27 @@ export const Officers = () => (
         marginTop: '10px'
         }}>
 
-            <Card style={{ width: '18rem', margin: '50px' }}>
+            <Card style={{ width: '20vw', margin: '5vw', height: '30vw' }}>
             <Card.Img variant="top" src={joji} />
             <Card.Body>
-                <Card.Title>Joji Sherman</Card.Title>
-                <Card.Text style={{color: 'black'}}>Vice President</Card.Text>
+                <Card.Title style={{fontSize: "2vw"}}>Joji Sherman</Card.Title>
+                <Card.Text style={{color: 'black', fontSize: "2vw"}}>Vice President</Card.Text>
             </Card.Body>
             </Card>
 
-            <Card style={{ width: '18rem', margin: '50px' }}>
+            <Card style={{ width: '20vw', margin: '5vw', height: '30vw' }}>
             <Card.Img variant="top" src={fawad} />
             <Card.Body>
-                <Card.Title>Fawad Haq</Card.Title>
-                <Card.Text style={{color: 'black'}}>Treasurer</Card.Text>
+                <Card.Title style={{fontSize: "2vw"}}>Fawad Haq</Card.Title>
+                <Card.Text style={{color: 'black', fontSize: "2vw"}}>Treasurer</Card.Text>
             </Card.Body>
             </Card>
 
-            <Card style={{ width: '18rem', margin: '50px' }}>
+            <Card style={{ width: '20vw', margin: '5vw', height: '30vw' }}>
             <Card.Img variant="top" src={alana} />
             <Card.Body>
-                <Card.Title>Alana Hernandez</Card.Title>
-                <Card.Text style={{color: 'black'}}>Vice President</Card.Text>
+                <Card.Title style={{fontSize: "2vw"}}>Alana Hernandez</Card.Title>
+                <Card.Text style={{color: 'black', fontSize: "2vw"}}>Vice President</Card.Text>
             </Card.Body>
             </Card>
 

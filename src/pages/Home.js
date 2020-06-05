@@ -26,35 +26,27 @@ export default class Home extends React.Component {
           </Container>
         </div>
         <div id="second">
-            <Container fluid>
+            <Container fluid style={{backgroundColor: "gainsboro"}}>
               <Row>
                 <Col>
                   <h2 class="tournament-headings text-center">Next Tournament</h2>
                   <TournamentInfo/>
                 </Col>
                 <Col>
+                <div id="second">
                   <h2 class="video-heading text-center">See our highlights!</h2>
                   <ResponsivePlayer url={'https://www.youtube.com/watch?v=WC3WtXONu34'}/>
+                  <h2 class="a-team-heading text-center">CSL A Team!</h2>
+                <ResponsivePlayer url={"https://www.youtube.com/watch?v=R930gktTpcM"} />
+                </div>
                 </Col>
               </Row>
+      
+     
               
             </Container>
         </div>
       
-        <div id="fourth">
-          <Container>
-            <Row>
-              <Col>
-                <h2 class="a-team-heading text-center">CSL A Team!</h2>
-              </Col>
-            </Row>
-            <Row style={{marginTop: "2em"}}>
-                <Col className="text-center">
-                  <ResponsivePlayer url={"https://www.youtube.com/watch?v=R930gktTpcM"} />
-                </Col>  
-            </Row>    
-          </Container>
-        </div>
 
       </div>
     );
