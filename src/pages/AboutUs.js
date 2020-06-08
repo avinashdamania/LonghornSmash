@@ -2,6 +2,7 @@ import React from 'react'
 import { Col, Row, Container, Image, Card, Button } from 'react-bootstrap';
 import YouTube from 'react-youtube';
 import ImageGallery from 'react-image-gallery';
+import '../css/AboutUs.css'
 import { withTheme } from 'styled-components'
 import josephstuder from '../assets/officers/joseph.jpg'
 import ankurkaushik from '../assets/officers/ankur.jpg'
@@ -46,7 +47,7 @@ const hstyle = {
 const hstyle2 = {
     textAlign: "center",
     fontSize: "65px",
-    color: 'white'
+    color: "#cd6c3c"
 };
 
 const h2style = {
@@ -54,7 +55,7 @@ const h2style = {
     fontFamily: "GothamBlackRegular",
     fontSize: "25px",
     marginTop: "20px",
-    color: 'white'
+    color: "#cd6c3c"
 };
 
 const pstyle = {
@@ -81,7 +82,8 @@ const pstyle4 = {
     textAlign: "right",
     fontFamily: "GothamBlackRegular",
     fontSize: "25px",
-    color: 'white'
+    color: 'white',
+    marginRight: "10px"
 };
 
 
@@ -123,16 +125,16 @@ export const AboutUs = () => (
 
         <Col>
         <p style={pstyle4}>
-        This past school year, Longhorn Smash introduced guilds to our community. Our top 3 players each lead one guild, and these guilds are fighting to obtain the most through various means.
+        This past school year, Longhorn Smash introduced guilds to our community. Our top 3 players each lead one guild, and these guilds are fighting to obtain the most points through various means.
         However, the guild system is more than just friendly competition for our members; the guilds offer new members a way to make new friends in the community and feel welcome to the scene.
         Each guild hosts practice sessions and other hangouts ranging from just getting dinner to escape rooms to PCL study sessions. Our community has long been a place to form new friendships and maintain old ones,
         and guilds are simply an extension of that guiding principle for us. Our community joins together through smash, but blossoms into so much more thanks to the people in it.
         </p>
         </Col>
 
-        <Col>
-        <ImageGallery items={pr_images} autoPlay="true" style={{width: "20%", height: "20%"}}/>
-        </Col>
+
+        <ImageGallery items={pr_images} autoPlay="true"/>
+       
 
         </Row>
         </Container>
@@ -159,13 +161,7 @@ export const AboutUs = () => (
 
 
 
-        <p style={pstyle}>The primary way our group communicates is through Discord; you can join below!</p>
-        <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        fontSize:'24px'
-        }}><td textAlign= 'center'> <a textAlign='center' href={"https://discord.gg/UrNNR92"}> Join our discord!</a> </td></div>
+        <p style={pstyle}>The primary way our group communicates is through Discord; <a textAlign='center' href={"https://discord.gg/UrNNR92"}>click here to join!</a></p>
 
 
         <p style={pstyle2}>Find us on <a textAlign='center' href={"https://utexas.campuslabs.com/engage/organization/cgc"}>HornsLink</a></p>

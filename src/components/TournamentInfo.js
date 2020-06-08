@@ -8,15 +8,15 @@ export default class TournamentInfo extends React.Component {
         return (
             <div>
                 <Container>
-                    {/* <Row className="p-3">
-                        <Col>
-                            We host weekly tournaments called SD Sundays every Sunday. Here you can find information about the location, date, and how to signup.
-                            Unfortunately, due to the recent situation regarding the Corona Virus, all upcoming tournaments have been cancelled until further notice. 
-                        </Col>
-                    </Row> */}
                     <Row>
                         <Col>
                             <Image src={sds_slide} fluid></Image>
+                        </Col>
+                    </Row>
+                    <Row className="p-3">
+                        <Col>
+                            We host weekly tournaments called SD Sundays every Sunday. Here you can find information about the location, date, and how to signup.
+                            Unfortunately, due to the recent situation regarding COVID-19, all upcoming tournaments have been cancelled until further notice. 
                         </Col>
                     </Row>
                     <Row>
